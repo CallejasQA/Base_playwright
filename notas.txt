@@ -1,0 +1,54 @@
+﻿1. intalacion//////////////////////////////////// 
+control + shift + p 
+luego seleccionar Test: intall Playwright
+para ejecutar --npx playwright test
+para limpiar cosola --clear 
+
+2./////////atajos de teclado //////////////////////////////////
+control + shift + p  // para intalar playwright
+control + } // para comentar varia linas de codigo
+tecla alt y mover con la tecla flechas //para para saltar una linea de codigo
+ 
+
+////////////////Comando	Abreviatura	Descripción/////
+//////////NPM
+npm search <palabra>	npm s <palabra>	Realiza una búsqueda de paquetes en NPM.
+npm install <paquete>	npm i <paquete>	Instala el paquete indicado en node_modules/.
+npm uninstall <paquete>	npm r <paquete>	Desinstala el paquete indicado, eliminándolo de node_modules/.
+npm install dotenv --save //para poder utilizar variabres de entorno
+
+
+//////////NPX
+npx <comando>	-	Ejecuta paquetes CLI instalados a nivel de proyecto (o sin instalar).
+npx playwright test --ui ////Starts the interactive UI mode.
+npx playwright test --project=chromium  //Ejecuta las pruebas solo en Desktop Chrome
+npx playwright test <example>  ////Ejecuta las pruebas en un archivo específico.
+npx playwright test --debug ///Ejecuta las pruebas en modo de depuración.
+npx playwright codegen <url>   ///Auto generar pruebas con Codegen.
+
+
+intalaciones de dependecias 
+npm install dotenv --save    ///https://www.npmjs.com/package/dotenv 
+npm install xlsx ///para leer archivos excel 
+
+3. ////GIT 
+git config --global user.name "Juan Diego Callejas" ///Configurar el usuario en git
+git config --global user.email "juan.callejas@grupokonecta.com"  ///Configurar el email en git
+git init //para inicilizar el proyecto en git
+git add . //para agregar los archivos a git
+git status //ver es estado de los archivos en git
+git commit -m "Base de Automatizacion"  //realizar comnit
+cls //limpia la consola 
+git checkout -- .  //recupera todos archivos
+git checkout -- <nombre archivo> //recupera un archivo en especifico
+git checkout -commit <específico> //recupera un commit en especifico
+git checkout -f <Rama> //recupera desde una rama
+git reset <archivo> //eliminar archivos en git
+git reset --hard <commit> //devolvernos a un commit en git  
+git reset --sort <commit> //devolvernos a un commit
+git reflog //presenta todos los commis realizados asi esten eliminados
+//alias
+git config --global alias.lg "log --oneline --decorate --all --graph" //configurar alias para ver los logs 
+git config --global alias.s "status -s -b" ////configurar alias para ver el estado
+
+//urls importantes //https://github.com/testrodrigovillanueva

@@ -1,0 +1,20 @@
+{
+  "name": "base_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx playwright test Login.spec.ts",
+    "reporte": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "xlsx": "^0.18.5"
+  }
+}
